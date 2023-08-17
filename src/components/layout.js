@@ -13,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
     `)
     return (
         <div>
-        <header>{data.site.siteMetadata.title}</header>
+        <header className='text-xl'>{data.site.siteMetadata.title}</header>
         <nav>
             <ul>
             <li><Link to="/">Home</Link></li>
